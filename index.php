@@ -5,7 +5,10 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <link rel="shortcut icon" href="assets/image/favicon.ico" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css" />
+
+    <title>CORUM - Biotecnologia</title>
     <style>
         @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;400;700&display=swap');
         /* RESET */
@@ -55,6 +58,25 @@
             color: #FFFFFF;
         }
         
+        .redes_sociais {
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+            gap: 15px
+        }
+        
+        .redes_sociais a i {
+            text-decoration: none;
+            color: #FFFFFF;
+            font-size: 30px;
+            transition: 0.3s;
+        }
+        
+        .redes_sociais a i:hover {
+            cursor: pointer;
+            color: #e34a15;
+        }
+        
         @media (max-width: 900px) {
             .container img {
                 height: 190px;
@@ -80,6 +102,9 @@
                 line-height: 33px;
                 text-align: center;
             }
+            .redes_sociais a i {
+                font-size: 25px;
+            }
         }
         
         @media (max-width:550px) {}
@@ -91,6 +116,12 @@
         <img src="./assets/image/logo.png" alt="">
         <h1>NOSSA PLATAFORMA ESTÁ EM DESENVOLVIMENTO</h1>
         <h4>ENQUANTO ISSO, NOS ACOMPANHE NAS REDES SOCIAIS!</h4>
+        <div class="redes_sociais">
+            <a href="https://www.facebook.com/CORUM-Biotecnologia-102028615585937"><i class="fab fa-facebook"></i></a>
+            <a href="https://www.instagram.com/corum.biotecnologia/"><i class="fab fa-instagram "></i></a>
+            <a href="https://www.linkedin.com/company/corum-biotecnologia/"><i class="fab fa-linkedin"></i></a>
+
+        </div>
     </div>
 </body>
 
